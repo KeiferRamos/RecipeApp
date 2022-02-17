@@ -118,3 +118,12 @@
 .hide-comment {
   z-index: 999;
 }
+
+@media (max-width: 500px) {
+  .main-container {
+    width: 340px;
+  }
+  .comments-generator {
+    width: 330px;
+  }
+}
