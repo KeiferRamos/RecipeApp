@@ -11,7 +11,7 @@ export const App = () => {
       <NavBar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/RecipeApp" element={<Home />} />
           <Route path="/about-page" element={<MainContent />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/recipe/:id" element={<Recipe />} />

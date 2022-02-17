@@ -816,7 +816,7 @@ export const Url = [
   {
     logo: <i className="fas fa-home"></i>,
     title: "HOME",
-    links: "/RecipeApp/",
+    links: "/RecipeApp",
   },
   {
     logo: <i className="fas fa-utensils"></i>,
