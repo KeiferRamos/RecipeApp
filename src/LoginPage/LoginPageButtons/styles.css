@@ -1,0 +1,15 @@
+.LoginPageButtons > button {
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  background: green;
+}
+
+.create-btn,
+.submit-btn {
+  margin: 20px 0 0 5px;
+}
+
+.refresh-btn {
+  margin: 5px;
+}

@@ -1,0 +1,120 @@
+.main-container {
+  width: 450px;
+  height: 450px;
+  background: #fff;
+  position: relative;
+  text-align: end;
+  border-radius: 10px;
+  background: #476651;
+  overflow: hidden;
+}
+
+.main-container > .close-tab {
+  width: 100%;
+  background: #fff;
+}
+
+.main-container .close-tab > i {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: green;
+}
+
+.main-container > div {
+  height: 350px;
+  overflow: scroll;
+}
+
+.comments-container {
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.comment > span {
+  color: blue;
+  margin-right: 5px;
+}
+
+.user-comments {
+  display: flex;
+  text-align: justify;
+  margin: 10px;
+  padding: 5px;
+  gap: 10px;
+  background: #dbf0f3;
+  border-radius: 10px;
+}
+
+.close-tab {
+  align-items: center;
+}
+
+.user-comments > img,
+.comments-generator > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.comments-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.comments-generator {
+  position: absolute;
+  display: flex;
+  width: 440px;
+  height: 60px;
+  bottom: 0;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  background: #22392a;
+  border-radius: 10px;
+}
+
+.comments-generator > div {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  height: 50px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  background: #ccdcdf;
+  position: relative;
+}
+
+.comments-generator div > textarea {
+  resize: none;
+  border: none;
+  outline: none;
+  background: none;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.comments-generator div > i {
+  position: absolute;
+  right: 0;
+  margin: 15px;
+  color: green;
+  font-size: 20px;
+}
+
+.no-comments {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.hide-comment {
+  z-index: 999;
+}

@@ -1,0 +1,12 @@
+.bookmark-button {
+  border: none;
+  background: none;
+}
+
+.marked {
+  color: green;
+}
+
+.unmarked {
+  color: #79bd95;
+}

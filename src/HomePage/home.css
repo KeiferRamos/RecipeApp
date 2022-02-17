@@ -1,0 +1,43 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+}
+
+.show {
+  transform: translateX(0);
+}
+
+.hide {
+  transform: translateX(-100%);
+}
+
+.intro-container {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  font-size: 25px;
+}
+
+.intro-container > div {
+  margin: auto 50px 50px;
+  color: green;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .intro-container {
+    width: 80%;
+    font-size: 20px;
+  }
+}

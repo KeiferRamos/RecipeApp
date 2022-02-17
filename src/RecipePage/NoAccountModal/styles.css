@@ -1,0 +1,15 @@
+.create-acc {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  color: green;
+}
+
+.create-acc > button {
+  padding: 5px 10px;
+  border: none;
+  background: green;
+  color: #fff;
+  margin: 5px;
+}
