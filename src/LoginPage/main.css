@@ -52,9 +52,9 @@
   gap: 5px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .container {
-    width: 275px;
+    width: 305px;
     padding: 10px;
   }
 }
