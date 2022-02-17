@@ -38,15 +38,17 @@ const UserBookmark = ({ user, email }) => {
               <img src={img[0]} />
               <div className="bookmark-item">
                 <p>{name}</p>
-                <button
-                  onClick={() => {
-                    navigate(`/recipe/${id}`);
-                    setI(1);
-                  }}
-                >
-                  view recipe
-                </button>
-                <button onClick={() => removeItem(name)}>remove item</button>
+                <div>
+                  <button
+                    onClick={() => {
+                      navigate(`/recipe/${id}`);
+                      setI(1);
+                    }}
+                  >
+                    view recipe
+                  </button>
+                  <button onClick={() => removeItem(name)}>remove item</button>
+                </div>
               </div>
             </div>
           );

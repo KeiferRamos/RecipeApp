@@ -23,13 +23,19 @@
   border: 1px solid #fff;
 }
 
-.bookmark-item > button {
+.bookmark-item > div {
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmark-item div > button {
   margin-right: 5px;
   border-radius: 3px;
   background: green;
   color: #cfe8e8;
   border: none;
-  padding: 3px 5px;
+  padding: 3px 10px;
 }
 
 .profile {
